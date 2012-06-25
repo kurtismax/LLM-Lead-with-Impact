@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+	width:100%;
+	font-family: Myriad Pro, Arial, Helvetica, sans-serif;
+	 
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.clear {clear:left;}
+
+.wrapper {position:relative; margin:auto; width:1900px; background: url(../images/bg-main.jpg) no-repeat top center; min-height: 2400px;}
+
+
+#bg-shape-left {position:absolute; z-index: 3; background:url(../images/bg-shape-left.png) no-repeat; width:1207px; height:1034px; top:229px; left: 50px; zoom: 1;filter: alpha(opacity=60);opacity: .60;}
+#bg-shape-left-under {position:absolute; z-index:2; background:url(../images/bg-shape-left-under.png) no-repeat; width:1081px; height:870px; top:231px; left: 50px; zoom: 1;filter: alpha(opacity=100);opacity: 1.00;}
+#bg-shape-right {zoom: 1;filter: alpha(opacity=30);opacity: 0.3; float:right; margin: -407px -447px 0 0;}
+
+#right-blue-menu {position:absolute; z-index:1; width:360px; background:url(../images/bg-right-menu.png) no-repeat center; min-height: 1845px; right:535px; top:410px;}
+
+
+#right-side-menu {float:right;}
+
+#top-right-box {position:absolute; z-index: 12; width: 316px; height:307px; background:url(../images/bg-top-right-box.png) no-repeat center;  top:100px; right:528px; color:#ffffff; padding: 75px 20px 0 30px; line-height:1.3em;}
+#top-right-box #right-box-message {margin-top:25px;font-family:Georgia, "Times New Roman", Times, serif; font-size:14px;}
+#top-right-box ul {text-align:right; margin:15px 15px 0 0;}
+#top-right-box ul li {height:16px; position:relative; padding-bottom:4px;}
+#top-right-box ul li a {color:#fff; text-decoration:none; position:absolute; z-index:99; top:0; right:0;}
+
+
+
+#main-content{position:absolute; z-index:10; top:0; left:250px; padding:75px 0 0 0;}
+
+#main-content .col-main{width:800px; float:left;}
+
+#main-content .col-main .home {padding: 50px 0 0 0px;}
+#main-content .col-main .home img {float:left;}
+#main-content .col-main .home blockquote {margin: 20px 0 0 110px; font-size: 14px; line-height:1.3em; width:320px;}
+#main-content .col-main .home .name-quote {font-size:12px; text-align: right; margin-right:10px; font-style:italic;} 
+#main-content .col-main .home img.inquire-here {float:right; margin: 10px 160px 0 0;}
+#main-content .col-main .home .right-text {float:right; width:275px; font-size:12px; margin-top:200px; line-height:1.3em;}
+#main-content .col-main .home .right-text p {padding-bottom:10px;}
+
+#main-content .col-main .page {width:643px; margin: 175px 0 0 50px;}
+#main-content .col-main .page .page-top {background:url(../images/page-top-bg.png) no-repeat; height:29px; }
+#main-content .col-main .page .page-content {min-height:800px; background:url(../images/page-content-bg.png) repeat-y; }
+#main-content .col-main .page .page-bottom {background:url(../images/page-bottom-bg.png) no-repeat; height:42px;}
+
+
+
+#main-content .right-col{float:right; margin: 440px 0 0 100px;}
+#main-content .right-col {width:200px;}
+#main-content .right-col ul {text-align:right; margin-right:50px; font-size:16px; font-weight:bold;}
+#main-content .right-col ul li {padding: 15px 0; border-bottom: 1px dashed #000000;}
+#main-content .right-col ul li:last-child {border:none;}
+#main-content .right-col ul li a {color:#000000; text-decoration:none;}
+
+
+
+#header {margin-left:50px;}
+img.lwi-logo {margin:10px;}
+
+
+#top-menu {width:500px; margin-left:50px;}
+#top-menu ul {margin: 100px 0 0 20px; color:#DA471F; font-size:12px;}
+#top-menu ul li {float:left; padding: 0 20px; border-right: 1px solid #DA471F; }
+#top-menu ul li:last-child {border:none;}
+#top-menu ul li a {color:#DA471F; text-decoration:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
